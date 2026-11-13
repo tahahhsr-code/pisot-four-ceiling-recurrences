@@ -1,0 +1,37 @@
+PisotFour.recurrence_A048589 (n : ℕ) (hn : 4 ≤ n) :
+  PisotFour.A048589 n =
+    2 * PisotFour.A048589 (n - 1) - PisotFour.A048589 (n - 2) + PisotFour.A048589 (n - 3) - PisotFour.A048589 (n - 4)
+PisotFour.recurrence_A048591 (n : ℕ) (hn : 4 ≤ n) :
+  PisotFour.A048591 n =
+    2 * PisotFour.A048591 (n - 1) - PisotFour.A048591 (n - 2) + PisotFour.A048591 (n - 3) - PisotFour.A048591 (n - 4)
+PisotFour.recurrence_A048585 (n : ℕ) (hn : 4 ≤ n) :
+  PisotFour.A048585 n =
+    2 * PisotFour.A048585 (n - 1) - PisotFour.A048585 (n - 2) + PisotFour.A048585 (n - 3) - PisotFour.A048585 (n - 4)
+PisotFour.recurrence_A048588 (n : ℕ) (hn : 4 ≤ n) :
+  PisotFour.A048588 n =
+    2 * PisotFour.A048588 (n - 1) - PisotFour.A048588 (n - 2) + PisotFour.A048588 (n - 3) - PisotFour.A048588 (n - 4)
+'PisotFour.b_rec' does not depend on any axioms
+'PisotFour.b_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.q_rec' depends on axioms: [propext, Quot.sound]
+'PisotFour.growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.transition' depends on axioms: [propext, Quot.sound]
+'PisotFour.four_step' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.second_diff' depends on axioms: [propext, Quot.sound]
+'PisotFour.det_shift' depends on axioms: [propext, Quot.sound]
+'PisotFour.ceiling_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.u_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.ceil_of_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.u_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.ceilingSeq_rec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.identify' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.u_fourth' depends on axioms: [propext, Quot.sound]
+'PisotFour.original_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.shift_general' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.shift_585' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.shift_588' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.recurrence_A048589' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.recurrence_A048591' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.recurrence_A048585' depends on axioms: [propext, Classical.choice, Quot.sound]
+'PisotFour.recurrence_A048588' depends on axioms: [propext, Classical.choice, Quot.sound]
+lake env lean Audit.lean EXIT_CODE=0

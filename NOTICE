@@ -1,0 +1,34 @@
+Four ceiling Pisot recurrences in Lean 4
+Release v0.1.0; maintainer: Taha Kabiri.
+
+The Apache-2.0 license covers rights the releasing contributor is
+entitled to grant in this package. It does not assert exclusive ownership
+of mathematical facts or determine whether AI-generated material has
+copyright protection in any jurisdiction. No sole human authorship claim
+is made. The maintainer approved this license for release.
+
+ChatGPT/Codex generated and debugged the formal proof implementation,
+performed computational and release checks, and drafted documentation.
+The user supplied the four-step certificate; ultimate idea authorship is
+not independently established by its appearance in the task specification.
+
+Prior scientific credit: David W. Wilson and the OEIS contributors;
+The Omega Institute / TrureTuring contributors for the L(6,7) proof outline
+(issue 21793) and formalization (PR 27351). The inspected records explicitly
+identify AI-assisted work, including Claude Code and Codex CLI. They are
+not described here as independent human referees. The PR account is
+macstudio-4[bot]; related records include loning and ElonSG. Account names
+are not asserted to identify individual human mathematical authors.
+
+Other inspected implementations: LODA programs submitted by loader3229;
+Sequencelib work credited to Walter Moreira and Joe Stubbs, with original
+SML work credited to Thibault Gauthier and Josef Urban; jOEIS classes
+credited to Georg Fischer. None of this source is incorporated here.
+
+Lean and Mathlib are external dependencies. The checked pinned packages
+mathlib, plausible, LeanSearchClient, importGraph, proofwidgets, aesop,
+Qq and batteries carry Apache-2.0 license texts; Cli carries MIT.
+Dependency source and binaries are not redistributed in this package.
+The TrureTuring source inspected at commit 67e0167006da3fc4a2d9e10b5a3489775e208777
+is under Apache-2.0; no proof code from it is redistributed here.
+No OEIS database extract or third-party proof text is bundled.
