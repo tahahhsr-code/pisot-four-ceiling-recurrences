@@ -1,5 +1,7 @@
 # Four ceiling Pisot recurrences in Lean 4
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24207512.svg)](https://doi.org/10.5281/zenodo.24207512)
+
 Maintainer: **Taha Kabiri**
 
 This project gives a shared Lean proof of the fourth-order recurrence
@@ -41,6 +43,12 @@ Python 3 is used only to inspect source and audit output. Lake retrieves the pin
 David W. Wilson is credited for the OEIS sequence entries and recurrence statements. The Omega Institute's TrureTuring project already supplied a public mathematical proof outline for A048585 in [issue 21793](https://github.com/the-omega-institute/trureturing/issues/21793), followed by the formalization in [merged PR 27351](https://github.com/the-omega-institute/trureturing/pull/27351). Its records report successful compilation; this project did not rerun that build. A048589 follows from A048585 by shifting, so neither result is presented as a new discovery. This is public repository proof work, not an assertion of journal publication or independent human peer review.
 
 For A048588/A048591, the bounded review found existing sequence-generating programs, including a third-order candidate for A048588, but no earlier all-index ceiling-identification proof in the inspected sources. Historical priority remains unresolved. This release contributes the supplied shared certificate's checked implementation for all four sequences, without claiming the first proof or first formalization worldwide. See [release audit](RELEASE_AUDIT.md) for precise sources and limits.
+
+## Citation
+
+Taha Kabiri. *Four Ceiling Pisot Recurrences — Lean 4 Verification*. Version v0.1.0. Zenodo. DOI: [10.5281/zenodo.24207512](https://doi.org/10.5281/zenodo.24207512).
+
+Please cite this archived version using the DOI above. Machine-readable citation metadata is provided in `CITATION.cff`.
 
 ## Attribution and license
 

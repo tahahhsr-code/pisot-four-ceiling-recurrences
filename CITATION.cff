@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the immutable Zenodo v0.1.0 archive using DOI 10.5281/zenodo.24207512."
+type: software
+title: "Four Ceiling Pisot Recurrences — Lean 4 Verification"
+authors:
+  - family-names: Kabiri
+    given-names: Taha
+version: "0.1.0"
+doi: 10.5281/zenodo.24207512
+date-released: "2026-11-13"
+repository-code: https://github.com/tahahhsr-code/pisot-four-ceiling-recurrences
+url: https://doi.org/10.5281/zenodo.24207512
+license: Apache-2.0
+commit: bc13c99f47a4344f26c7b490c496842aa0fd7e8b
